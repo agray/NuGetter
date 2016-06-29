@@ -1,0 +1,32 @@
+﻿<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NuGetter</id>
+    <version>1.0.0</version>
+    <title>NuGetter</title>
+    <authors>Full Circle Solutions</authors>
+    <owners>Andrew Gray</owners>
+    <description>Dynamic NuGet Mirror built specifically for CI</description>
+    <releaseNotes>
+      ChangeLog:
+      v1.0.0
+       - Initial Release.
+    </releaseNotes>
+    <summary>Dynamic NuGet Mirror built specifically for CI</summary>
+    <projectUrl>http://fullcirclesolutions.com.au</projectUrl>
+    <iconUrl>http://fullcirclesolutions.com.au/images/NuGetter.png</iconUrl>
+    <copyright>Copyright Andrew Gray 2014-2016</copyright>
+    <tags>nuget ci</tags>
+    <!--<frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net461" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net461" />
+    </frameworkAssemblies>-->
+    <dependencies>
+      <dependency id="NuGet.Core" version="2.11.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\NuGetter.Console.exe" target="lib\net461\" />
+    <file src="bin\Release\NuGetter.Core.dll" target="lib\net461\" />
+    <file src="bin\Release\NuGet.Core.dll" target="lib\net461\" />
+  </files>
+</package>
