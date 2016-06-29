@@ -13,7 +13,7 @@
                 ".vs",
                 "$tf",
                 "packages",
-                //"NuGetter",
+                "NuGetter",
                 "JenkinsScripts",
                 "TFS-SDK-11.0.0"
             };
